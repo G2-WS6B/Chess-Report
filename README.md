@@ -64,10 +64,6 @@
 ### 1.1. Presentación
 #### 1.1.1. Descripción del Problema
 
-**Objetivos**
-
-El presente proyecto tiene como objetivo el desarrollo de un desafío estratégico basado en el ajedrez, uno de los juegos de mesa más antiguos. 
-
 **Historia**
 
 Su origen es objeto de debate; sin embargo, la versión más aceptada sugiere que fue inventado en la India en el siglo VI d.C, originalmente llamado como “Chaturanga”. Después de más de mil años, en *1768, empezó a difundirse la idea de crear una máquina capaz de jugar al ajedrez, llamada “El Turco”, y en **1912* se construyó un autómata llamado “Ajedrecista”. Después de estos sucesos, no se mencionó sobre el ajedrez mecánico hasta *1950* con un artículo de Claude Shannon, en el cual explicaba las principales formas de búsqueda, una de ellas, es la llamada *Tipo A, que se basaba en fuerza bruta, examinando cada rama del árbol de movimientos. Para ese entonces, Shannon creyó que no sería práctico por la extensión de la profundidad del árbol y sugirió un programa de **Tipo B*, para analizar exclusivamente las mejores jugadas de cada posición. El problema era que se confía en que la computadora decida qué movimientos son suficientemente buenos para cualquier posición.
@@ -139,7 +135,34 @@ Para calcular el espacio de búsqueda, multiplicaremos el factor de ramificació
 ## Propuesta
 ### 2.1. Descripción de la propuesta
 
-El principal objetivo del proyecto consiste en la creación de un bot para el juego de ajedrez, que emplee algoritmos avanzados con el propósito de tomar decisiones óptimas y eficaces en cada movimiento durante la partida.
+El principal objetivo del proyecto consiste en la creación de un bot para el juego de ajedrez, que emplee algoritmos avanzados con el propósito de tomar decisiones óptimas y eficaces en cada movimiento durante la partida. Para ello, establecimos objetivos bajo el criterio de SMART.
+
+## Desarrollo del Bot de Ajedrez:
+
+| **Específico**                     | Crear un programa de computadora que juegue ajedrez utilizando algoritmo Minimax. |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medible**                         | Evaluar la efectividad del bot en partidas de ajedrez simuladas y comparar sus movimientos con las jugadas óptimas en diferentes escenarios.      |
+| **Alcanzable**                      | Contar con el equipo técnico competente y los recursos necesarios para desarrollar e implementar el algoritmo Minimax.  |
+| **Relevante**                       | Contribuir al avance de la inteligencia artificial aplicada a juegos estratégicos y mejorar la experiencia de juego para los amantes del ajedrez.    |
+| **Con Tiempo Definido**             | Lograr un prototipo funcional del bot de ajedrez en un plazo de 30 dias a partir de la fecha de inicio del proyecto.                             |
+
+## Optimización y Mejora del Rendimiento del Bot:
+
+| **Específico**                     | Implementar la poda alfa-beta y la programación dinámica para optimizar la eficiencia y la toma de decisiones del bot de ajedrez.                   |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medible**                         | Reducir el tiempo de cálculo de movimientos en al menos un 30% y mejorar la calidad de las jugadas mediante la optimización implementada.             |
+| **Alcanzable**                      | Contar con expertos en algoritmos y optimizaciones para implementar eficazmente estas mejoras en el bot.                                          |
+| **Relevante**                       | Asegurar que el bot de ajedrez sea competitivo y viable para su uso en partidas reales al mejorar su eficiencia y precisión.                         |
+| **Con Tiempo Definido**             | Implementar las optimizaciones mencionadas en un plazo de 40 dias después de la creación del prototipo inicial del bot.                              |
+
+## Desarrollo de la Interfaz Gráfica de Usuario (GUI):
+
+| **Específico**                     | Diseñar y desarrollar una interfaz gráfica de usuario atractiva y funcional para que los usuarios interactúen con el bot de ajedrez.                   |
+|------------------------------------|---------------------------------------------------------------------------------------------------------------------------------------------|
+| **Medible**                         | Evaluar la usabilidad y la satisfacción de los usuarios mediante pruebas de usuario y retroalimentación recopilada.                              |
+| **Alcanzable**                      | Contar con diseñadores y desarrolladores competentes en la creación de interfaces atractivas y funcionales.                                      |
+| **Relevante**                       | Proporcionar a los usuarios una forma intuitiva y cómoda de interactuar con el bot de ajedrez, mejorando así su experiencia de juego.                  |
+| **Con Tiempo Definido**             | Finalizar el desarrollo de la interfaz gráfica de usuario en un plazo de 50 dias después de la implementación de las optimizaciones del bot.           |
 
 #### 2.1.1. Algoritmo Minimax
 
