@@ -37,6 +37,7 @@
 - [Propuesta](#propuesta)
   - [2.1. Descripción de la propuesta](#21-descripción-de-la-propuesta)
     - [2.1.1. Algoritmo Minimax](#211-algoritmo-minimax)
+    - [Ejemplo de poda alfa-beta](#ejemplo-de-poda-alfa-beta)
       - [2.1.1.1. Optimización con Poda alfa-beta](#2111-optimización-con-poda-alfa-beta)
       - [2.1.1.2. Optimización con programación dinámica](#2112-optimización-con-programación-dinámica)
     - [2.1.2. Justificación del uso de Minimax](#212-justificación-del-uso-de-minimax)
@@ -145,15 +146,13 @@ El principal objetivo del proyecto consiste en la creación de un bot para el ju
 
 Se implementará el algoritmo Minimax, un algoritmo con un enfoque recursivo, utilizado para la toma de decisiones en juegos de adversario, como el ajedrez. Su objetivo es encontrar la jugada óptima en cada estado del juego, asumiendo que el oponente también juega de forma óptima. Para ello, explora recursivamente el árbol de juego, donde los nodos representan los estados posibles del juego y las aristas representan los movimientos posibles. En cada nivel de profundidad, alterna entre maximizar la ventaja propia (jugador Max) y minimizar la ventaja del oponente (jugador Min), de ahí su nombre "Minimax".
 
-<br>
+<div align="center"> Figura 4: Ejemplo de poda alfa-beta</div>
 
-<div align="center"> Figura 4: Técnica de optimización Poda Alfa-Beta</div>
+<div align="center"><a  href = "https://postimg.cc/8JfCM2Sh"><img  src="https://i.postimg.cc/4dBhkG2F/Imagen2.png"  alt=Poda alfa-beta"  width="600"  /></a></div>
 
-<div align="center"><a  href = "https://postimg.cc/XB3tpTyV"><img  src="https://i.postimg.cc/8crGnGpr/image3.png"  alt="poda alfa-beta"  width="600"  height="350" /></a></div>
+<div align="center"> Nota: Se muestra un arbol con poda alfa-beta</div> 
 
-<div align="center"> Nota: Ejemplo de poda alfa-beta</div> 
-
-<br>
+#### Ejemplo de poda alfa-beta
 
 ##### 2.1.1.1. Optimización con Poda alfa-beta
 
@@ -181,7 +180,7 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 
 <div align="center"> Figura 5: Juego realizado con Pygame</div>
 
-<div align="center"><a href='https://postimg.cc/ygybQdsB' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='Chess Game' width="600"/></a></div>
+<div align="center"><a href='' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='Chess Game' width="600"/></a></div>
 
 <div align="center"> Nota: Se muestra un videojuego de laberintos</div> 
 
