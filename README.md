@@ -66,9 +66,9 @@
 
 **Historia**
 
-Su origen es objeto de debate; sin embargo, la versión más aceptada sugiere que fue inventado en la India en el siglo VI d.C, originalmente llamado como “Chaturanga”. Después de más de mil años, en *1768, empezó a difundirse la idea de crear una máquina capaz de jugar al ajedrez, llamada “El Turco”, y en **1912* se construyó un autómata llamado “Ajedrecista”. Después de estos sucesos, no se mencionó sobre el ajedrez mecánico hasta *1950* con un artículo de Claude Shannon, en el cual explicaba las principales formas de búsqueda, una de ellas, es la llamada *Tipo A, que se basaba en fuerza bruta, examinando cada rama del árbol de movimientos. Para ese entonces, Shannon creyó que no sería práctico por la extensión de la profundidad del árbol y sugirió un programa de **Tipo B*, para analizar exclusivamente las mejores jugadas de cada posición. El problema era que se confía en que la computadora decida qué movimientos son suficientemente buenos para cualquier posición.
+Su origen es objeto de debate; sin embargo, la versión más aceptada sugiere que fue inventado en la India en el siglo VI d.C, originalmente llamado como “Chaturanga”. Después de más de mil años, en 1768, empezó a difundirse la idea de crear una máquina capaz de jugar al ajedrez, llamada “El Turco”, y en 1912 se construyó un autómata llamado “Ajedrecista”. Después de estos sucesos, no se mencionó sobre el ajedrez mecánico hasta 1950 con un artículo de Claude Shannon, en el cual explicaba las principales formas de búsqueda, una de ellas, es la llamada Tipo A, que se basaba en fuerza bruta, examinando cada rama del árbol de movimientos. Para ese entonces, Shannon creyó que no sería práctico por la extensión de la profundidad del árbol y sugirió un programa de Tipo B, para analizar exclusivamente las mejores jugadas de cada posición. El problema era que se confía en que la computadora decida qué movimientos son suficientemente buenos para cualquier posición.
 
-En *1973*, se crea el programa Chess 4.0, lo innovador de esta versión fue el uso del paradigma Tipo A, mencionado décadas atrás por Shannon, ganando el torneo de Association for Computing Machinery (ACM) durante 5 años seguidos, además de incentivar la creación del World Computer Chess Championship (WCCC) en 1974.
+En 1973, se crea el programa Chess 4.0, lo innovador de esta versión fue el uso del paradigma Tipo A, mencionado décadas atrás por Shannon, ganando el torneo de Association for Computing Machinery (ACM) durante 5 años seguidos, además de incentivar la creación del World Computer Chess Championship (WCCC) en 1974.
 
 <br>
 
@@ -80,9 +80,9 @@ En *1973*, se crea el programa Chess 4.0, lo innovador de esta versión fue el u
 
 <br>
 
-*Chess 4.0* estableció un paradigma que continúa utilizando hasta hoy, evitando imitar los procesos de pensamiento humando, confiando en la búsqueda de árbol y optimización selectiva de ramificación y poda. Sin embargo, esta última técnica debe gestionarse de manera cuidadosa, ya que, si se poda demasiado, hay riesgo de cortar jugadas interesantes, y si la técnica se extiende desmesuradamente, el programa puede analizar jugadas sin interés, perdiendo tiempo en ejecución. En *1971*, Deep blue, una computadora de Tipo A, derroto al campeón del mundo Garry Kaspárov, siendo la primera vez que una computadora derrotara al campeón del mundo en tiempos de control de torneo. 
+Chess 4.0 estableció un paradigma que continúa utilizando hasta hoy, evitando imitar los procesos de pensamiento humando, confiando en la búsqueda de árbol y optimización selectiva de ramificación y poda. Sin embargo, esta última técnica debe gestionarse de manera cuidadosa, ya que, si se poda demasiado, hay riesgo de cortar jugadas interesantes, y si la técnica se extiende desmesuradamente, el programa puede analizar jugadas sin interés, perdiendo tiempo en ejecución. En 1971, Deep blue, una computadora de Tipo A, derroto al campeón del mundo Garry Kaspárov, siendo la primera vez que una computadora derrotara al campeón del mundo en tiempos de control de torneo. 
 
-En *1990*, se empezó a utilizar de manera comercial las computadoras de Tipo B y en 1998 se publico el programa Rebel 10, que derroto a Viswanathan Anand por 5 a 3. Actualmente el programa sigue en constante evolución hasta su versión Rebel 16, lanzada a finales del 2022.
+En 1990, se empezó a utilizar de manera comercial las computadoras de Tipo B y en 1998 se publico el programa Rebel 10, que derroto a Viswanathan Anand por 5 a 3. Actualmente el programa sigue en constante evolución hasta su versión Rebel 16, lanzada a finales del 2022.
 
 <br>
 
@@ -98,7 +98,6 @@ En *1990*, se empezó a utilizar de manera comercial las computadoras de Tipo B 
 #### 1.1.2. Descripción del espacio de búsqueda
 
 El árbol de búsqueda en el ajedrez se representa de manera más precisa como un grafo dirigido acíclico, debido a la posibilidad de que múltiples caminos conduzcan a una misma posición en el juego, lo que introduce relaciones cíclicas en la estructura. A pesar de esta distinción técnica, el término "árbol de búsqueda" se utiliza comúnmente en el contexto del ajedrez debido a su conveniencia conceptual y porque muchas técnicas de búsqueda y algoritmos se aplican de manera similar tanto a árboles como a grafos dirigidos acíclicos.
-
 
 <br>
 
