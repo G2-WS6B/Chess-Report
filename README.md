@@ -170,8 +170,6 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 
 <div align="center"> Figura 5: Juego realizado con Pygame</div>
 
-<div align="center"><a  href = "https://postimg.cc/8F6MnQQ1"><img  src="[https://i.postimg.cc/rphjsMft/image1.png](https://postimg.cc/ygybQdsB)"  alt="Engineer"  width="600 height="350" /></a></div>
-
-<div align="center"> Nota: Se puede apreciar el Campeonato Mundial de Ajedrez por Ordenadores</div> 
+<div align="center"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='imagen-2023-09-29-223538555'/></a></div>
 
 </br>
