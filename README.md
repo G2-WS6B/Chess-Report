@@ -145,7 +145,7 @@ Se implementará el algoritmo Minimax, un algoritmo con un enfoque recursivo, ut
 
 <div align="center"> Figura 4: Ejemplo de poda alfa-beta</div>
 
-<div align="center"><a  href = "https://postimg.cc/CZhsx1SR"><img  src="https://i.postimg.cc/4dBhkG2F/Imagen2.png"  alt=Poda alfa-beta"  width="600"  /></a></div>
+<div align="center"><a  href = "https://postimg.cc/8JfCM2Sh"><img  src="https://i.postimg.cc/4dBhkG2F/Imagen2.png"  alt=Poda alfa-beta"  width="600"  /></a></div>
 
 <div align="center"> Nota: Se muestra un arbol con poda alfa-beta</div> 
 
@@ -176,6 +176,6 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 
 <div align="center"> Figura 5: Juego realizado con Pygame</div>
 
-<div align="center"><a href='https://postimg.cc/ygybQdsB' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='Chess Game' width="600"/></a></div>
+<div align="center"><a href='' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='Chess Game' width="600"/></a></div>
 
 <div align="center"> Nota: Se muestra un videojuego de laberintos</div> 
