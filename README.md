@@ -42,8 +42,7 @@
       - [2.1.1.2. Optimización con programación dinámica](#2112-optimización-con-programación-dinámica)
     - [2.1.2. Justificación del uso de Minimax](#212-justificación-del-uso-de-minimax)
     - [2.1.3. Interfaz gráfica de usuario](#213-interfaz-gráfica-de-usuario)
-- [Referencias Bibliográficas](#referencias-bibliográficas)
-
+- [Referencias](#referencias)
 <br>
 
 ## Student Outcome
@@ -184,16 +183,17 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 
 <div align="center"> Nota: Se muestra un videojuego de laberintos</div> 
 
-<br>
+</br>
 
-## Referencias Bibliográficas
+# Referencias
 
-Cormen, T., Leiserson, C., Rivest, R., & Stein, C. (2009). Introduction to Algorithms. https://acortar.link/V4B47P 
+- Cormen, T., Leiserson, C., Rivest, R., & Stein, C. (2009). [Introduction to Algorithms.](https://acortar.link/V4B47P)
 
-Leyva-Vázquez, M., & Smarandache, F. (2018). Inteligencia Artificial: retos, perspectivas y papel de la Neutrosofía. Infinite Study. https://acortar.link/dTKoVr 
+- Leyva-Vázquez, M., & Smarandache, F. (2018). [Inteligencia Artificial: retos, perspectivas y papel de la Neutrosofía.](https://acortar.link/dTKoVr) Infinite Study.
 
-Russell, S. J. (2010). Artificial intelligence is a modern approach. Pearson Education, Inc. https://acortar.link/P01tJf 
+- Russell, S. J. (2010). [Artificial intelligence: A modern approach.](https://acortar.link/P01tJf) Pearson Education, Inc.
 
-Sanango Peña, J. E. (2019). Estudio y desarrollo de los algoritmos de visión y de inteligencia artificial aplicados a un robot, para resolver partidas de ajedrez hombre-máquina (Master's thesis, Universitat Politècnica de Catalunya). https://acortar.link/dWH8KV 
+- Sanango Peña, J. E. (2019). [Estudio y desarrollo de los algoritmos de visión y de inteligencia artificial aplicados a un robot, para resolver partidas de ajedrez hombre-máquina (Master's thesis, Universitat Politècnica de Catalunya).](https://acortar.link/dWH8KV)
 
-Trillo, P. (2016). Centauro, el híbrido entre humano y máquina. Medium. https://acortar.link/DzzuQV  
+- Trillo, P. (2016). [Centauro, el híbrido entre humano y máquina.](https://acortar.link/DzzuQV) Medium.
+
