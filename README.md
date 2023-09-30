@@ -35,11 +35,11 @@
 - [Propuesta](#propuesta)
   - [2.1. Descripción de la propuesta](#21-descripción-de-la-propuesta)
     - [2.1.1. Algoritmo Minimax](#211-algoritmo-minimax)
-    - [Ejemplo de poda alfa-beta](#ejemplo-de-poda-alfa-beta)
       - [2.1.1.1. Optimización con Poda alfa-beta](#2111-optimización-con-poda-alfa-beta)
       - [2.1.1.2. Optimización con programación dinámica](#2112-optimización-con-programación-dinámica)
     - [2.1.2. Justificación del uso de Minimax](#212-justificación-del-uso-de-minimax)
     - [2.1.3. Interfaz gráfica de usuario](#213-interfaz-gráfica-de-usuario)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
 
 <br>
 
@@ -106,7 +106,7 @@ El árbol de búsqueda en el ajedrez se representa de manera más precisa como u
 
 <div align="center"> Figura 3: Imagen de un árbol binario de factor de ramificación de 2</div>
 
-<div align="center"><a  href = "https://postimg.cc/CZhsx1SR"><img  src="https://i.postimg.cc/1z6CMndr/Arbol-Binario.png"  alt="Chess"  width="600"  height="350" /></a></div>
+<div align="center"><a  href = "https://postimg.cc/CZhsx1SR"><img  src="https://i.postimg.cc/1z6CMndr/Arbol-Binario.png"  alt="Tree"  width="600"  height="350" /></a></div>
 
 <div align="center"> Nota: Se muestra un árbol binario</div> 
 
@@ -143,7 +143,15 @@ El principal objetivo del proyecto consiste en la creación de un bot para el ju
 
 Se implementará el algoritmo Minimax, un algoritmo con un enfoque recursivo, utilizado para la toma de decisiones en juegos de adversario, como el ajedrez. Su objetivo es encontrar la jugada óptima en cada estado del juego, asumiendo que el oponente también juega de forma óptima. Para ello, explora recursivamente el árbol de juego, donde los nodos representan los estados posibles del juego y las aristas representan los movimientos posibles. En cada nivel de profundidad, alterna entre maximizar la ventaja propia (jugador Max) y minimizar la ventaja del oponente (jugador Min), de ahí su nombre "Minimax".
 
-#### Ejemplo de poda alfa-beta
+<br>
+
+<div align="center"> Figura 4: Técnica de optimización Poda Alfa-Beta</div>
+
+<div align="center"><a  href = "https://postimg.cc/XB3tpTyV"><img  src="https://i.postimg.cc/8crGnGpr/image3.png"  alt="poda alfa-beta"  width="600"  height="350" /></a></div>
+
+<div align="center"> Nota: Ejemplo de poda alfa-beta</div> 
+
+<br>
 
 ##### 2.1.1.1. Optimización con Poda alfa-beta
 
@@ -165,3 +173,26 @@ En el contexto del ajedrez, el algoritmo Minimax es preferible sobre el backtrac
 #### 2.1.3. Interfaz gráfica de usuario
 
 Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva que permitirá a los usuarios interactuar cómodamente con el bot de ajedrez mediante Pygame, una biblioteca de Python de código abierto para crear interfaces y videojuegos en 2D, proporciona gestión de eventos, sprites, sonidos y fuentes de texto.
+
+
+<br>
+
+<div align="center"> Figura 5: Imagen con un ejemplo realizado en Pygame</div>
+
+<div align="center"><a  href = "https://postimg.cc/tn5wP2hF"><img  src="https://i.postimg.cc/DmkT9N0p/image4.png"  alt="poda alfa-beta"  width="400"  height="350" /></a></div>
+
+<div align="center"> Nota: Juego realizado en Pygame</div> 
+
+<br>
+
+## Referencias Bibliográficas
+
+Cormen, T., Leiserson, C., Rivest, R., & Stein, C. (2009). Introduction to Algorithms. https://acortar.link/V4B47P 
+
+Leyva-Vázquez, M., & Smarandache, F. (2018). Inteligencia Artificial: retos, perspectivas y papel de la Neutrosofía. Infinite Study. https://acortar.link/dTKoVr 
+
+Russell, S. J. (2010). Artificial intelligence is a modern approach. Pearson Education, Inc. https://acortar.link/P01tJf 
+
+Sanango Peña, J. E. (2019). Estudio y desarrollo de los algoritmos de visión y de inteligencia artificial aplicados a un robot, para resolver partidas de ajedrez hombre-máquina (Master's thesis, Universitat Politècnica de Catalunya). https://acortar.link/dWH8KV 
+
+Trillo, P. (2016). Centauro, el híbrido entre humano y máquina. Medium. https://acortar.link/DzzuQV  
