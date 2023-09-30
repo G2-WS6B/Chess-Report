@@ -182,7 +182,7 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 
 </br>
 
-#Referencias
+# Referencias
 
 - Cormen, T., Leiserson, C., Rivest, R., & Stein, C. (2009). [Introduction to Algorithms.](https://acortar.link/V4B47P)
 
