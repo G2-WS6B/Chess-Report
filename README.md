@@ -21,7 +21,7 @@
     <li style="list-style-type: none">Moreno Rosales, Claudio Jesús    (u20191e800)</li>
   </ul>
 
-  <h2 style="border-bottom: none;">Mes y Año: Setiembre - 2023</h2> 
+  <h2 style="border-bottom: none;">Mes y Año: Septiembre - 2023</h2> 
 </div>
 
 <br><br>
