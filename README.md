@@ -25,3 +25,33 @@ Para calcular el espacio de búsqueda, multiplicaremos el factor de ramificació
 Suponiendo que una computadora pueda generar una posición en el mínimo tiempo Planck (10^(-43)  segundos), tardaríamos en visitar todo el árbol de profundidad (80) en 3,16887676 ×10^69 años. 
 
 ##PARTE DE PROPUESTA
+# 2.1. Propuesta
+
+El principal objetivo del proyecto consiste en la creación de un bot para el juego de ajedrez, que emplee algoritmos avanzados con el propósito de tomar decisiones óptimas y eficaces en cada movimiento durante la partida.
+
+## 2.1.1. Algoritmo Minimax
+
+Se implementará el algoritmo Minimax, un algoritmo con un enfoque recursivo, utilizado para la toma de decisiones en juegos de adversario, como el ajedrez. Su objetivo es encontrar la jugada óptima en cada estado del juego, asumiendo que el oponente también juega de forma óptima. Para ello, explora recursivamente el árbol de juego, donde los nodos representan los estados posibles del juego y las aristas representan los movimientos posibles. En cada nivel de profundidad, alterna entre maximizar la ventaja propia (jugador Max) y minimizar la ventaja del oponente (jugador Min), de ahí su nombre "Minimax".
+
+### Ejemplo de poda alfa-beta
+
+#### 2.1.1.1. Optimización con Poda alfa-beta
+
+Una optimización del algoritmo Minimax, es la agregación de Poda alfa-beta, una estrategia para reducir la cantidad de nodos que se deben evaluar en el árbol de juego. Para entender cómo funciona, se establecen los siguientes pasos:
+- Se realiza una exploración recursiva del árbol de juego, alternando entre los jugadores Max y Min en cada nivel del árbol.
+- Se mantiene un rango (alfa, beta) para cada nodo, que representa la mejor opción encontrada hasta ese momento para el jugador Max (alfa) y para el jugador Min (beta).
+- Durante la exploración, si se encuentra un nodo donde el jugador Min tiene una opción que es peor que la mejor opción encontrada hasta ahora para el jugador Max en ese nivel (beta <= alfa), entonces se poda la exploración de los hijos de ese nodo para el jugador Max en ese nivel, ya que Min no elegiría esta opción.
+
+#### 2.1.1.2. Optimización con programación dinámica
+
+Además, se implementará programación dinámica para almacenar y reutilizar evaluaciones de posiciones y minimizar el costo de recalcular jugadas previas, utilizando una tabla de transposición y memoización.
+
+El algoritmo Minimax genera y explora el árbol de juego hasta una cierta profundidad. En cada nivel, considera todas las posibles jugadas y evalúa las posiciones utilizando la función de evaluación, luego se utiliza la memoización para almacenar las evaluaciones de posición en una tabla de transposición. Sin embargo, antes de calcular la evaluación de una posición, verifica si ya está almacenada en la tabla de transposición. Si lo está, recupera la evaluación almacenada en lugar de recalcularla, finalmente selecciona la mejor jugada.
+
+### 2.1.2. Justificación del uso de Minimax
+
+En el contexto del ajedrez, el algoritmo Minimax es preferible sobre el backtracking convencional debido a la naturaleza estratégica y competitiva del juego. El ajedrez implica la toma de decisiones basada en la anticipación de las acciones del oponente, y Minimax está diseñado precisamente para modelar este tipo de interacción. Al considerar las mejores respuestas del oponente en cada jugada, Minimax permite la selección de movimientos que maximizan la ventaja propia y minimizan los riesgos.
+
+### 2.1.3. Interfaz gráfica de usuario
+
+Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva que permitirá a los usuarios interactuar cómodamente con el bot de ajedrez mediante Pygame, una biblioteca de Python de código abierto para crear interfaces y videojuegos en 2D, proporciona gestión de eventos, sprites, sonidos y fuentes de texto.
