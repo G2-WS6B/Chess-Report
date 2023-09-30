@@ -172,4 +172,4 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 
 <div align="center"><a href='https://postimg.cc/ygybQdsB' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='Chess Game' width="600"/></a></div>
 
-</br>
+<div align="center"> Nota: Se muestra un videojuego de laberintos</div> 
