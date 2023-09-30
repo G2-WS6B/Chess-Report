@@ -19,7 +19,7 @@
     <li style="list-style-type: none">Cancho Corilla, Ángel Antonio    (u201721995)</li>
     <li style="list-style-type: none">Moreno Rosales, Claudio Jesús    (u20191e800)</li>
   </ul>
-  <h2 style="border-bottom: none;">Mes y Año: Setiembre - 2023</h2> 
+  <h2 style="border-bottom: none;">Mes y Año: Septiembre - 2023</h2> 
 </div>
 
 <br><br>
@@ -165,3 +165,4 @@ En el contexto del ajedrez, el algoritmo Minimax es preferible sobre el backtrac
 #### 2.1.3. Interfaz gráfica de usuario
 
 Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva que permitirá a los usuarios interactuar cómodamente con el bot de ajedrez mediante Pygame, una biblioteca de Python de código abierto para crear interfaces y videojuegos en 2D, proporciona gestión de eventos, sprites, sonidos y fuentes de texto.
+[![Juego realizado con Pygame](https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png)](https://postimg.cc/ygybQdsB)
