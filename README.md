@@ -40,7 +40,7 @@
       - [2.1.1.2. Optimización con programación dinámica](#2112-optimización-con-programación-dinámica)
     - [2.1.2. Justificación del uso de Minimax](#212-justificación-del-uso-de-minimax)
     - [2.1.3. Interfaz gráfica de usuario](#213-interfaz-gráfica-de-usuario)
-
+- [Referencias](#referencias)
 <br>
 
 ## Student Outcome
@@ -179,3 +179,18 @@ Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva qu
 <div align="center"><a href='' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='Chess Game' width="600"/></a></div>
 
 <div align="center"> Nota: Se muestra un videojuego de laberintos</div> 
+
+</br>
+
+#Referencias
+
+- Cormen, T., Leiserson, C., Rivest, R., & Stein, C. (2009). [Introduction to Algorithms.](https://acortar.link/V4B47P)
+
+- Leyva-Vázquez, M., & Smarandache, F. (2018). [Inteligencia Artificial: retos, perspectivas y papel de la Neutrosofía.](https://acortar.link/dTKoVr) Infinite Study.
+
+- Russell, S. J. (2010). [Artificial intelligence: A modern approach.](https://acortar.link/P01tJf) Pearson Education, Inc.
+
+- Sanango Peña, J. E. (2019). [Estudio y desarrollo de los algoritmos de visión y de inteligencia artificial aplicados a un robot, para resolver partidas de ajedrez hombre-máquina (Master's thesis, Universitat Politècnica de Catalunya).](https://acortar.link/dWH8KV)
+
+- Trillo, P. (2016). [Centauro, el híbrido entre humano y máquina.](https://acortar.link/DzzuQV) Medium.
+
