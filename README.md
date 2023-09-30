@@ -14,12 +14,14 @@
   <h2 style="border-bottom: none;">Chess Report</h2> 
   <h2 style="border-bottom: none;">Grupo: 2</h2> 
   <h2 style="border-bottom: none;">Relación de Integrantes:</h2> 
+  
   <ul>
     <li style="list-style-type: none">Benedetti Rivas, Lucas Sebastián (u201817461)</li>
     <li style="list-style-type: none">Cancho Corilla, Ángel Antonio    (u201721995)</li>
     <li style="list-style-type: none">Moreno Rosales, Claudio Jesús    (u20191e800)</li>
   </ul>
-  <h2 style="border-bottom: none;">Mes y Año: Septiembre - 2023</h2> 
+
+  <h2 style="border-bottom: none;">Mes y Año: Setiembre - 2023</h2> 
 </div>
 
 <br><br>
@@ -39,6 +41,7 @@
       - [2.1.1.2. Optimización con programación dinámica](#2112-optimización-con-programación-dinámica)
     - [2.1.2. Justificación del uso de Minimax](#212-justificación-del-uso-de-minimax)
     - [2.1.3. Interfaz gráfica de usuario](#213-interfaz-gráfica-de-usuario)
+- [Referencias Bibliográficas](#referencias-bibliográficas)
 
 <br>
 
@@ -173,10 +176,25 @@ En el contexto del ajedrez, el algoritmo Minimax es preferible sobre el backtrac
 
 Se desarrollará una interfaz gráfica de usuario (GUI) intuitiva y atractiva que permitirá a los usuarios interactuar cómodamente con el bot de ajedrez mediante Pygame, una biblioteca de Python de código abierto para crear interfaces y videojuegos en 2D, proporciona gestión de eventos, sprites, sonidos y fuentes de texto.
 
+
 <br>
 
 <div align="center"> Figura 5: Juego realizado con Pygame</div>
 
-<div align="center"><a href='https://postimages.org/' target='_blank'><img src='https://i.postimg.cc/26sN5btq/imagen-2023-09-29-223538555.png' border='0' alt='imagen-2023-09-29-223538555'/></a></div>
+<div align="center"><a  href = "https://postimg.cc/tn5wP2hF"><img  src="https://i.postimg.cc/DmkT9N0p/image4.png"  alt="UI"  width="400"  height="350" /></a></div>
 
-</br>
+<div align="center"> Se puede apreciar el Campeonato Mundial de Ajedrez por Ordenadores</div> 
+
+<br>
+
+## Referencias Bibliográficas
+
+Cormen, T., Leiserson, C., Rivest, R., & Stein, C. (2009). Introduction to Algorithms. https://acortar.link/V4B47P 
+
+Leyva-Vázquez, M., & Smarandache, F. (2018). Inteligencia Artificial: retos, perspectivas y papel de la Neutrosofía. Infinite Study. https://acortar.link/dTKoVr 
+
+Russell, S. J. (2010). Artificial intelligence is a modern approach. Pearson Education, Inc. https://acortar.link/P01tJf 
+
+Sanango Peña, J. E. (2019). Estudio y desarrollo de los algoritmos de visión y de inteligencia artificial aplicados a un robot, para resolver partidas de ajedrez hombre-máquina (Master's thesis, Universitat Politècnica de Catalunya). https://acortar.link/dWH8KV 
+
+Trillo, P. (2016). Centauro, el híbrido entre humano y máquina. Medium. https://acortar.link/DzzuQV  
