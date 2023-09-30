@@ -143,6 +143,12 @@ El principal objetivo del proyecto consiste en la creación de un bot para el ju
 
 Se implementará el algoritmo Minimax, un algoritmo con un enfoque recursivo, utilizado para la toma de decisiones en juegos de adversario, como el ajedrez. Su objetivo es encontrar la jugada óptima en cada estado del juego, asumiendo que el oponente también juega de forma óptima. Para ello, explora recursivamente el árbol de juego, donde los nodos representan los estados posibles del juego y las aristas representan los movimientos posibles. En cada nivel de profundidad, alterna entre maximizar la ventaja propia (jugador Max) y minimizar la ventaja del oponente (jugador Min), de ahí su nombre "Minimax".
 
+<div align="center"> Figura 4: Ejemplo de poda alfa-beta</div>
+
+<div align="center"><a  href = "https://postimg.cc/CZhsx1SR"><img  src="https://i.postimg.cc/4dBhkG2F/Imagen2.png"  alt=Poda alfa-beta"  width="600"  /></a></div>
+
+<div align="center"> Nota: Se muestra un arbol con poda alfa-beta</div> 
+
 #### Ejemplo de poda alfa-beta
 
 ##### 2.1.1.1. Optimización con Poda alfa-beta
