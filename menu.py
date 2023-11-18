@@ -1,6 +1,6 @@
 import pygame
 import sys
-from main import main # Importa la función main desde el archivo main.py
+from main import main  # Importa la función main desde el archivo main.py
 
 # Configuración de la ventana y colores
 pygame.init()
